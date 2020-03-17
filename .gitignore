@@ -1,2 +1,8 @@
-# Prevent accidental folder check-ins, update as needed.
-*/*
+# Ignore everything, except whitelist below.
+# Recursively allow files under subtree:
+# !/subtree/**
+
+*
+!.gitignore
+!backup-apigee-orgs.sh
+!LICENSE
