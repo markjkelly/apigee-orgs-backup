@@ -19,7 +19,7 @@ Using the script you can store the following org data:
 - Spec store (Not available on-premises. Spec store APIs are in experimental status, so may change in the future)
 - Target Servers
 
-## Setup
+## Setup & Usage
 
 1. Download and install Node.js at http://nodejs.org/download/.
 1. Open a command prompt and install Grunt using the `npm` command.
@@ -30,6 +30,7 @@ Using the script you can store the following org data:
 1. Make a directory at the repo root level for each apigee org you would like to backup. The folder name should match
 exactly the name of the apigee org.
 1. Modify .gitignore to whitelist the directories you created in the previous step.
+1. Execute ./backup-apigee-orgs.sh
 
 
 ## Disclaimer
