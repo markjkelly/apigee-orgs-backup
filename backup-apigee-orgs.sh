@@ -1,12 +1,4 @@
 #!/bin/bash
-
-###################################################################################################################################################
-# 1. This file should be placed at the root of an initialised git repository.
-# 2. Add a git remote repository to push changes to when script completes (git push). https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
-# 3. Create folders at repo root level for each apigee org you wish to backup (folder name should exactly match org name)
-# 4. npm (Node Package Manager) is required -> go/cloud-ace-dev-machine (See installing NVM and npm) or go/node-goobuntu
-# 5. Grunt is required -> npm install -g grunt-cli
-# 6. Run ./backup-apigee-orgs.sh
 ###################################################################################################################################################
 # Note: Currently this script only backs up the 'test' environment of each org. 
 # Adding functionality to backup each environment in an org is currently under development. 
