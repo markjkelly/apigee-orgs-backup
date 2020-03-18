@@ -1,4 +1,4 @@
-# apigee-orgs-backup
+# Backup and Store data from your Apigee Organisation(s)
 
 This script leverages the apigee-migrate-tool https://github.com/apigeecs/apigee-migrate-tool to export data from Apigee org(s) and store the exported data in a git repo. The same script can be run regularly to store and track changes from each org in a git repo.
 
