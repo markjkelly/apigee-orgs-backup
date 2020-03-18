@@ -28,7 +28,8 @@ Using the script you can store the following org data:
 1. Make a directory at the repo root level for each apigee org you would like to backup. The folder name should match
 exactly the name of the apigee org.
 1. Modify .gitignore to whitelist the directories you created in the previous step.
-* Note: Protect your data by making the new repo private and restricting access.
+
+Note: Protect your data by making the new repo private and restricting access.
 
 ## Usage
 1. Execute ./backup-apigee-orgs.sh
