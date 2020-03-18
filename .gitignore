@@ -1,9 +1,8 @@
 # Ignore everything, except whitelisted files and folders.
-
 ###############################
-# Add two rules for each folder you want to include:
-# 1. !folder-name/    <-- includes the folder and top level files
-# 2. !folder-name/**  <-- includes the folder and sub level files recursively
+# Add two rules for each org you want to include:
+# 1. !org-name/    <-- includes the folder and top level files
+# 2. !org-name/**  <-- includes the folder and sub level files recursively
 ###############################
 
 /**
@@ -11,3 +10,5 @@
 !backup-apigee-orgs.sh
 !LICENSE
 !README.md
+
+### Start Whitelisting orgs
